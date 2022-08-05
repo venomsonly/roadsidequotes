@@ -1,0 +1,222 @@
+.main_cont {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* padding: 80px 0px; */
+}
+
+.main_cont .col {
+    flex: 1 0 50%;
+    min-width: 600px;
+    padding: 10px;
+}
+
+.main_cont .left_col {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.left_col .heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #1D1D1D;
+}
+
+.left_col .sub_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #555555;
+    margin: 20px 0px;
+}
+
+.left_col .sub_text small {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.left_col_inlined {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left_col_inlined .text_cont {
+    flex: 0 1 70%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.left_col_inlined .text_cont .heading {
+    /* white-space: nowrap; */
+}
+
+.left_col_inlined .input_cont {
+    flex: 0 1 30%;
+    margin: 0;
+}
+
+.main_cont .right_col {
+    background: #F2F2F2;
+    border-radius: 24px;
+    padding: 10px 40px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.right_col .heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    padding: 30px 0px;
+    color: #0F0F0F;
+}
+
+.right_col .sub_heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+    color: #414141;
+}
+
+.right_col .days_cont {
+    background: #FFFFFF;
+    border-radius: 27px;
+    padding: 25px 30px;
+    margin: 30px 0px;
+    margin-bottom: 70px;
+}
+
+.right_col .days_cont .days_table {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.right_col .days_cont .days_table p{
+    text-align: center;
+    padding: 5px;
+}
+
+.right_col .days_cont .days_table p strong {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+    color: #414141;
+}
+
+.right_col .days_cont .days_table p span {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #A5A5A5;
+    display: block;
+    margin-top: 20px;
+}
+
+.input_cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.col_6 {
+    flex: 1 1 50%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .main_cont .col{
+        min-width: unset;
+        width: 100%;
+    }
+    .main_cont .left_col {
+        padding: 40px 0px;
+    }
+    .left_col_inlined {
+        flex-wrap: wrap;
+    }
+    .left_col_inlined .text_cont {
+        flex: 1 1 100%;
+    }
+    .left_col_inlined .input_cont {
+        flex: 1 1 100%;
+    }
+    .left_col_inlined .text_cont .heading {
+        font-size: 34px;
+        line-height: 41px;
+    }
+    .main_cont .right_col {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    .col_6 {
+        flex: 1 0 100%;
+    }
+    .right_col .call_btn_cont {
+        margin-bottom: 30px;
+    }
+    .right_col .days_cont {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main_cont .left_col {
+        padding: 20px 0px;
+    }
+    .main_cont .right_col {
+        padding: 10px 15px;
+    }
+    
+    .main_cont .right_col .heading{
+        font-size: 34px;
+        line-height: 41px;
+    }
+    
+    .main_cont .right_col .sub_heading{
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .right_col .days_cont .days_table {
+    }
+    
+    .right_col .days_cont .days_table p{
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right_col .days_cont .days_table p strong {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .right_col .days_cont .days_table p span {
+        font-size: 23px;
+        line-height: 43px;
+        display: inline-block;
+        margin: 0px;
+        margin-left: auto;
+    }
+}

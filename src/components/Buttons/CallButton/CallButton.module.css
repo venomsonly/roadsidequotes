@@ -1,0 +1,75 @@
+.call_btn {
+    min-width: 250px;
+    max-width: 250px;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    outline: none;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.call_btn:hover {
+    cursor: pointer;
+}
+
+.call_btn p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    margin-left: 10px;
+    color: #2C82C4;
+}
+
+.call_btn p strong {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 47px;
+    color: #2C82C4;
+}
+
+.color_red {
+    background: red;
+}
+
+.color_red p {
+    color: #fff;
+}
+
+.color_red p strong {
+    color: #fff;
+}
+
+.high_brightness {
+    filter: brightness(10);
+}
+
+.call_btn_img_cont>* {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+@media screen and (max-width: 400px) {
+    .call_btn {
+        padding: 10px 30px;
+    }
+
+    .call_btn p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .call_btn p strong {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .call_btn_img_cont {
+        height: 45px !important;
+    }
+}

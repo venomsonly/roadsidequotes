@@ -1,0 +1,33 @@
+{
+  "name": "roadsidequotes.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-hook/intersection-observer": "^3.1.1",
+    "axios": "^0.27.2",
+    "default-passive-events": "^2.0.0",
+    "next": "12.2.0",
+    "next-pwa": "^5.5.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.30.7",
+    "styled-components": "^5.3.5",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6"
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ]
+}

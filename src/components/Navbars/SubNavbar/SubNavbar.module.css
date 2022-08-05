@@ -1,0 +1,28 @@
+.main_cont {
+    position: relative;
+    right: var(--body-margin);
+    width: calc(100% + var(--body-margin) * 2);
+    padding: 10px 25px;
+    background-color: #060707;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav_link:first-child {
+        display: none;
+    }
+}

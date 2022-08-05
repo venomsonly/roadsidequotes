@@ -1,0 +1,126 @@
+.main_cont {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+}
+
+.main_cont .col {
+    flex: 1 0 50%;
+    min-width: 600px;
+    padding: 10px;
+}
+
+.main_cont .left_col {
+}
+
+.left_col .heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #1D1D1D;
+}
+
+.left_col .sub_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #555555;
+    margin: 20px 0px;
+}
+
+.left_col .sub_text small {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.main_cont .right_col {
+    background: #F2F2F2;
+    border-radius: 24px;
+    padding: 10px 40px;
+}
+
+.right_col .heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    
+    color: #2C82C4;
+}
+
+.right_col .sub_heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+    color: #414141;
+}
+
+.right_col .days_cont {
+    background: #FFFFFF;
+    border-radius: 27px;
+    padding: 25px 30px;
+    margin: 30px 0px;
+    margin-bottom: 70px;
+}
+
+.right_col .days_cont table {
+    width: 100%;
+}
+
+.right_col .days_cont table th,
+.right_col .days_cont table td{
+    text-align: center;
+    padding: 5px;
+}
+
+.right_col .days_cont table th {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+    color: #414141;
+}
+
+.right_col .days_cont table td {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #A5A5A5;
+}
+
+
+.bottom_section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.bottom_section .heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 188%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #151515;
+    width: 70%;
+    margin-bottom: 30px;
+}
