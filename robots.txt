@@ -1,4 +1,2 @@
-towing
-
-# Additional line for towing
-# Additional line for towing
+User-agent: *
+Disallow: /
